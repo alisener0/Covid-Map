@@ -1,5 +1,6 @@
 # Covid-Map
-Kullanılan Kütüphaneler
+---Kullanılan Kütüphaneler----
+
 react-router-dom: Sayfalar arası yönlendirme (routing) işlemleri için kullanılır.
 
 react-icons: Popüler ikon setlerini React projelerinde kolayca kullanmanızı sağlar.
@@ -16,12 +17,12 @@ react-redux: React uygulamalarında Redux state yönetimini entegre eder.
 
 @testing-library/user-event@14.0: Kullanıcı etkileşimlerini simüle ederek test yazmayı kolaylaştırır.
 
-Test Süreci
+--Test Süreci--
 Testing Library kullanılarak, kullanıcı etkileşimleri simüle edilmiş ve komponentlerin beklenen şekilde çalışması test edilmiştir.
 
 Proje genelinde test süreci BDD (Behavior Driven Development) yaklaşımıyla yürütülmüştür; yani kullanıcı davranışlarına göre test senaryoları oluşturulmuştur.
 
-Responsive Tasarım
+---Responsive Tasarım---
 Uygulama, mobil ve masaüstü cihazlarda sorunsuz çalışacak şekilde responsive olarak tasarlanmıştır.
 
 Tailwind CSS ile tüm bileşenlerde duyarlılık (responsive design) esas alınarak tasarım yapılmıştır.
