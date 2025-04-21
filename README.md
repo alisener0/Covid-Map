@@ -1,33 +1,29 @@
-# Covid-Map
----Kullanılan Kütüphaneler----
 
-react-router-dom: Sayfalar arası yönlendirme (routing) işlemleri için kullanılır.
+# 🦠 COVID-19 Map Tracker
 
-react-icons: Popüler ikon setlerini React projelerinde kolayca kullanmanızı sağlar.
+**Covid-Map** is an interactive web application that visualizes COVID-19 cases on a world map using real-time data. It helps users track the spread of the virus globally, showing confirmed cases, recoveries, and deaths per country.
+--
+🚀 Features
+🌍 Interactive map displaying COVID-19 statistics
 
-axios@^0.27.2: API istekleri yapmak için kullanılan HTTP istemcisidir.
+📊 Country-wise data: confirmed, recovered, and deaths
 
-tailwind: Modern ve özelleştirilebilir stiller oluşturmak için CSS utility-first framework'ü.
+🔄 Real-time updates using a public COVID API
 
-react-simple-maps: Harita üzerinde görselleştirme yapmak için kullanılır.
+📱 Responsive and user-friendly design
 
-@reduxjs/toolkit: Redux işlemlerini daha sade ve etkili hale getiren gelişmiş bir araç seti.
+---
 
-react-redux: React uygulamalarında Redux state yönetimini entegre eder.
+🛠️ Technologies Used
+HTML5 – Structure
 
-@testing-library/user-event@14.0: Kullanıcı etkileşimlerini simüle ederek test yazmayı kolaylaştırır.
+CSS3 – Styling
 
---Test Süreci--
+JavaScript – Logic and interaction
 
+Leaflet.js – Interactive map
 
-Testing Library kullanılarak, kullanıcı etkileşimleri simüle edilmiş ve komponentlerin beklenen şekilde çalışması test edilmiştir.
+COVID-19 API – Data source 
 
-Proje genelinde test süreci BDD (Behavior Driven Development) yaklaşımıyla yürütülmüştür; yani kullanıcı davranışlarına göre test senaryoları oluşturulmuştur.
+https://github.com/user-attachments/assets/2dd675a5-cb9f-4bad-a8f6-f438bd5c7b43
 
-
----Responsive Tasarım---
-
-
-Uygulama, mobil ve masaüstü cihazlarda sorunsuz çalışacak şekilde responsive olarak tasarlanmıştır.
-
-Tailwind CSS ile tüm bileşenlerde duyarlılık (responsive design) esas alınarak tasarım yapılmıştır.
